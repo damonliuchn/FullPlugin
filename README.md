@@ -49,7 +49,7 @@ public class FullPluginUtil {
     }
 }
 ```
-3. 代码比较简单且还在踩坑且不方便开源
+3代码比较简单且还在踩坑且不方便开源
 
 #Contact me:
 
