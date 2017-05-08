@@ -1,13 +1,13 @@
 # FullPlugin
 全量插件化，用于中小App免发布升级
 
-#介绍
+# 介绍
 
 1. 大部分中小型App没有必要拆分成若干插件，那么可以将整个APK作为一个插件，单独写一个宿主壳，从而实现APK的动态更新，取了一个名字叫全量插件化。
 
 2. 对于超级App，还是建议讲App拆成若果插件，使用宿主+ 若干插件的方式来使用插件化。
 
-#实现
+# 实现
 基于DroidPlugin制作宿主，正常开发后的App作为插件，宿主的作用是1、加载插件 2、升级插件 3、插件权限控制。
 
 1. 加载插件
@@ -18,7 +18,7 @@
 
 3. 宿主申请插件中用的权限。
 
-#注意
+# 注意
 
 1. DroidPlugin默认不支持多开的，即插件和宿主的packagename是不能一样的。但此项目的需求是对插件App做到无侵入性，所以需要对DroidPlugin改造使其支持多开。修改后的DroidPlugin地址：https://github.com/MasonLiuChn/DroidPlugin
 
@@ -51,7 +51,7 @@ public class FullPluginUtil {
 ```
 3代码比较简单且还在踩坑且不方便开源
 
-#Contact me:
+# Contact me:
 
 - Blog:http://www.masonliu.com
 
